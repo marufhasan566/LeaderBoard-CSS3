@@ -12,7 +12,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .player-blog {
@@ -20,6 +21,7 @@ main {
     background-color: #FFFFFF;
     padding: 33px;
     width: 90%;
+    border-radius: 5px;
 }
 
 .one {
@@ -31,7 +33,6 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 29px;
-
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
@@ -69,4 +70,36 @@ hr {
 
 .two {
     margin-top: 30px;
+}
+
+.blogs {
+    display: flex;
+
+}
+
+.blogs img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px;
+
+}
+
+.latest-courses {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.banner {
+    width: 224px;
+    height: 104px;
 }
