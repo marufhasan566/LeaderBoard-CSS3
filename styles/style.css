@@ -10,15 +10,27 @@ body {
     background-color: #F3F1FF;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .player-blog {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     padding: 33px;
+    width: 90%;
+}
+
+.one {
+    margin-top: 0px;
 }
 
 .top-player {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 29px;
 
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
@@ -34,9 +46,27 @@ body {
 }
 
 hr {
-    width: 90%;
+    border: 1px solid #D1D1D1;
 }
 
 .player-name {
     margin-left: 16px;
+    font-size: 18px;
+
+}
+
+
+
+
+#minor-color {
+    color: #9F9F9F;
+}
+
+.blog-info a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.two {
+    margin-top: 30px;
 }
